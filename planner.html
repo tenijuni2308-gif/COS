@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Study Planner | Taiwo Enijuni</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo">StudentPortfolio</div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="planner.html" class="active">Planner</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="container">
+        <h1>Study &amp; Assignment Tracker</h1>
+        <p class="subtitle">A simple to-do list to keep track of my MIVA coursework and deadlines.</p>
+        
+        <section class="card">
+            <div class="planner-controls">
+                <input type="text" id="taskInput" placeholder="e.g., Revise COS 106 notes or submit lab...">
+                <button id="addTaskBtn" class="btn">Add</button>
+            </div>
+            <ul id="taskList" class="task-list"></ul>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Taiwo Wunderkind Enijuni</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
